@@ -1,6 +1,7 @@
-# teamWork2
-Were all in this togetherrrr 
+# The-Northwest-Tree---Team-Project-Repository
 
-Editing readme file
+Scrum Master: Spencer Augenstein
 
-ok lets see what happens 
+Product Owner: Ethan Maher
+
+Developer: Sebastian Johnson 
