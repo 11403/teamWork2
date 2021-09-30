@@ -1,0 +1,61 @@
+#menucontainer{
+    margin-top: 150px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(247, 255, 246);
+    display:inline-block;
+    border-radius: 8px;
+}
+
+#enginemenu{
+    width: 150px;
+    height: 120px;
+    float: left;
+    border: 2px solid black;
+    margin-right: 3px;
+    background-color: rgb(234, 255, 242);
+    border-radius: 8px;
+    transition: border-radius 0.5s, width 0.5s;
+}
+#enginemenu:hover {
+    background-color: rgb(199, 241, 241);
+    width: 175px;
+    border-radius: 18px;
+
+}
+#gamemenu{
+    width: 150px;
+    height: 120px;
+    float: right;
+    border: 2px solid black;
+    margin-left: 3px;
+    background-color: rgb(234, 255, 242);
+    border-radius: 8px;
+    transition: border-radius 0.5s, width 0.5s;
+}
+#gamemenu:hover {
+    background-color: rgb(199, 241, 241);
+    width: 175px;
+    border-radius: 18px;
+}
+.text {
+    font-family: verdana;
+    margin-top: 40px;
+    font-size: 26px;
+    text-decoration-line: none;
+    color: black
+}
+
+#gametitle {
+    font-family: verdana;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-right: 200px;
+    text-decoration-line: underline;
+}
+
+#gamebox1 {
+    background-color: rgb(247, 255, 246);
+    border-radius: 2px solid black;
+}
