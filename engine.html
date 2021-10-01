@@ -6,24 +6,30 @@
         <link rel="stylesheet" href="scripts/css/engine.css">
         <title>Game Development Engines</title>
     </head>
-    <body id="grad">
-        <div class="links">
-            <button> <a href="index.html"> Home </a></button> 
-            <button> <a href="about.html"> About </a> </button> 
-            <button> <a href="engine.html"> Engines </a> </button> 
-            <button class="settings"> Settings </button> 
-        </div>
-            <div id="menucontainer">
+    <body class="grad">
+            <div class="links"> 
+                    <input class="navigation" type="submit" value="Home" onclick="location.href='index.html'"/>  
+                    <input class="navigation" type="submit" value="About" onclick="location.href='about.html'"/>
+                    <input class="navigation" type="submit" value="Engine" onclick="location.href='engine.html'"/>  
+                    <input class="navigation" type="submit" value="Setting" onclick="setting()"/>
+            </div> 
+            <selection class="mainBody"> 
+            <h1 class="title"> -- Engine -- </h1>  
+             <img class="inspiration" src="images/template.png" alt="Become Inspired"/>
+           <!-- <div id="menucontainer">
                <div id="enginemenu" onclick="location.href='engine/learning.html'" id="enginemenu">
                    <P class="text">Learning</P>
                </div>
                <div id="gamemenu" onclick="location.href='engine/games.html'" id="gamemenu">
                 <P class="text">Games</P>
         </div></div><br>
-        <span id="gametitle">Unity</span>
+        <P id="gametitle">Unity</P>
         <div id="gamebox1">
-            <P>Boom</P> 
+            <P>Text box</P> 
         </div>
-
+        <div id="gamebox2">
+            <P>Description box</P>
+        </div> -->
+    </selection>
     </body>
 </html>

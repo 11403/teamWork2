@@ -1,5 +1,6 @@
 #menucontainer{
     margin-top: 150px;
+    margin-left: 10px;
     padding: 5px;
     border: 2px solid black;
     text-align: center;
@@ -9,8 +10,8 @@
 }
 
 #enginemenu{
-    width: 150px;
-    height: 120px;
+    width: 130px;
+    height: 90px;
     float: left;
     border: 2px solid black;
     margin-right: 3px;
@@ -20,13 +21,13 @@
 }
 #enginemenu:hover {
     background-color: rgb(199, 241, 241);
-    width: 175px;
+    width: 140px;
     border-radius: 18px;
 
 }
 #gamemenu{
-    width: 150px;
-    height: 120px;
+    width: 130px;
+    height: 90px;
     float: right;
     border: 2px solid black;
     margin-left: 3px;
@@ -36,12 +37,12 @@
 }
 #gamemenu:hover {
     background-color: rgb(199, 241, 241);
-    width: 175px;
+    width: 140px;
     border-radius: 18px;
 }
 .text {
     font-family: verdana;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 26px;
     text-decoration-line: none;
     color: black
@@ -49,13 +50,28 @@
 
 #gametitle {
     font-family: verdana;
-    font-size: 22px;
-    margin-top: 50px;
+    font-size: 30px;
+    margin-top: 60px;
     margin-right: 200px;
     text-decoration-line: underline;
 }
 
 #gamebox1 {
     background-color: rgb(247, 255, 246);
-    border-radius: 2px solid black;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 210px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+
+#gamebox2 {
+    background-color: rgb(247, 255, 246);
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 00px;
 }
