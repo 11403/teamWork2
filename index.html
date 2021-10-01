@@ -6,16 +6,19 @@
         <meta name="author" content="John Doe">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Northwest Tree</title>
-            <link rel="stylesheet" href="scripts/css/style.css">
+            <!--<link rel="stylesheet" href="scripts/css/style.css">--> 
             <link rel="stylesheet" href="scripts/css/mainOutline.css">
     </head>
-    <body>
-        <div class="links"> 
-            <button> <a href="index.html"> Home </a></button> 
-            <button> <a href="about.html"> About </a> </button> 
-            <button> <a href="engine.html"> Engines </a> </button> 
-            <button class="settings"> Settings </button> 
+    <body class="grad">
+            <div class="links"> 
+                    <input class="navigation" type="submit" value="Home" onclick="location.href='index.html'"/>  
+                    <input class="navigation" type="submit" value="About" onclick="location.href='about.html'"/>
+                    <input class="navigation" type="submit" value="Engine" onclick="location.href='engine.html'"/>  
+                    <input class="navigation" type="submit" value="Setting" onclick="setting()"/>
             </div> 
+            <selection class="mainBody"> 
+            <h1 class="title"> -- Home -- </h1> 
+            <h3 style="text-align: center"> -- Welcome to Our Website! -- </h3> 
         </ul>
         <hr>
         <div id="titlebox">
@@ -33,6 +36,6 @@
             <P>Learn information in articles about different game engines, see the inspiring games they have created, and dive into news.</P>
 >>>>>>> 3e45af17f67bd670f5128273eb1bc292ec153d75
         </div>
-
+    </selection>  
     </body>
 </html>

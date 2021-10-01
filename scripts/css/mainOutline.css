@@ -86,23 +86,24 @@ body {
 
   @media only screen and (min-width: 12in) { 
       body { 
-          font-size: clac(1vw + 1vh)
+          font-size: calc(0.75vw + 0.75vh)
       }
     .mainBody { 
         top: 15%; 
-        width: 50%; 
+        width: 45%; 
+        padding: 2%; 
         min-height: 80%; 
         margin: 0; 
     }
     .links { 
         height: 12%; 
-        padding: none;
-        background-image: linear-gradient(to right, rgb(177, 177, 177) , rgb(46, 46, 46));
+         /* background-image: linear-gradient(to right, rgb(177, 177, 177) , rgb(46, 46, 46)); */ 
+         background-color: rgba(255, 255, 255, 0.384); 
     }
     .navigation { 
-        margin: 1.5% 1.5%;
-        width: 320px;
-        border-radius: 13px;
+        margin: 1.5% 1.5%; 
+        width: 15%; 
+        border-radius: 11%; 
         border-width: 6px;
         border-style: outset;
         background-color: rgb(168, 168, 168);
