@@ -1,0 +1,127 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    overflow: auto; 
+}
+
+html { 
+    background-color: lightpink; 
+}
+
+body { 
+    background-color: lightblue;  
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh; 
+    max-width: 100%;
+    font-size: calc(1vw + 1vh);
+}
+
+.grad {
+    background-image: linear-gradient(to right, rgb(177, 177, 177) , rgb(46, 46, 46));
+}
+
+.mainBody { 
+    background-color: rgba(50, 158, 144, 0.616); 
+    position: relative; 
+    top: 11%; 
+    width: 90%; 
+    min-height: 86%; 
+    padding: 2.5% 4.5% ;   
+    font-size: 1.5em; 
+}
+
+.title { 
+    text-align: center;
+    text-decoration: underline; 
+    margin: 2.5% 0 4.5% 0; 
+    font-size: 1.65em;
+}
+
+.links { 
+    background-color: yellow;  
+    position: fixed; 
+    width: 100%; 
+    height: 8.5%; 
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    flex-grow: 1; 
+    flex-shrink: 1;
+    /* background-image: linear-gradient(to left, rgb(177, 177, 177) , rgb(46, 46, 46)); */ 
+}
+
+.navigation { 
+    width: 100%; 
+    margin: 2% 1.5%;
+    border-radius: 15%; 
+    font-size: 1em; 
+}
+
+.navigation:hover { 
+    background-color: lightblue; 
+}
+
+@media only screen and (orientation: landscape) and (min-width: 6in) and (max-width: 12in) {
+    body { 
+        font-size: calc(1.85vw + 1.85vh); 
+    }
+    .mainBody { 
+        top: 25%;
+        min-height: 60%;
+        border-radius: 12px;
+        font-size: 0.85em; 
+    }
+    .links { 
+        height: 20%; 
+        z-index: 1; 
+    }
+    #one { 
+        color: red; 
+    }
+  }
+
+  @media only screen and (min-width: 12in) { 
+      body { 
+          font-size: clac(1vw + 1vh)
+      }
+    .mainBody { 
+        top: 15%; 
+        width: 50%; 
+        min-height: 80%; 
+        margin: 0; 
+    }
+    .links { 
+        height: 12%; 
+        padding: none;
+        background-image: linear-gradient(to right, rgb(177, 177, 177) , rgb(46, 46, 46));
+    }
+    .navigation { 
+        margin: 1.5% 1.5%;
+        width: 320px;
+        border-radius: 13px;
+        border-width: 6px;
+        border-style: outset;
+        background-color: rgb(168, 168, 168);
+    }
+    #two { 
+        color: green; 
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
