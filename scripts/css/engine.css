@@ -8,7 +8,6 @@
     display:inline-block;
     border-radius: 8px;
 }
-
 #enginemenu{
     width: 130px;
     height: 90px;
@@ -47,7 +46,6 @@
     text-decoration-line: none;
     color: black
 }
-
 #gametitle {
     font-family: verdana;
     font-size: 30px;
@@ -55,7 +53,6 @@
     margin-right: 200px;
     text-decoration-line: underline;
 }
-
 #gamebox1 {
     background-color: rgb(247, 255, 246);
     border: 2px solid black;
@@ -65,7 +62,6 @@
     margin-top: -50px;
     margin-left: 90px;
 }
-
 #gamebox2 {
     background-color: rgb(247, 255, 246);
     border: 2px solid black;
