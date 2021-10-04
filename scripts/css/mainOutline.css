@@ -28,7 +28,7 @@ body {
     position: relative; 
     top: 11%; 
     width: 90%; 
-    min-height: 86%; 
+    max-height: 80%; 
     padding: 2.5% 4.5% ;   
     font-size: 1.5em; 
 }
@@ -77,9 +77,10 @@ body {
     }
     .mainBody { 
         top: 25%;
-        min-height: 60%;
         border-radius: 12px;
         font-size: 0.85em; 
+        min-height: 0;
+        height: 70%; 
     }
     .links { 
         height: 20%; 
