@@ -5,10 +5,8 @@
 }
 #introbox{
     margin-top: 50px;
-    width: 300px;
-    height: 200px;
+    width: 100%;
     border: 3px solid rgb(255, 237, 237);
-
     border-radius: 5px;
 }
 #introtext{
@@ -16,10 +14,12 @@
     font-size: 30px;
     text-decoration-line: underline;
     color:rgb(0, 0, 0);
- 
 }
 #titleimage{
     margin-top: -25px;
     width: 300px;
     height: 300px;
+}
+.titletext{
+    font-size: 50px;
 }
