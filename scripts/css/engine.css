@@ -1,41 +1,44 @@
-#menucontainer{
-    margin-top: 20px;
-    margin-left: 10px;
-    padding: 5px;
-    border: 2px solid black;
-    text-align: center;
+.engineContainer{
+    position: relative;
+    padding: 2.5%;
+    border: 1.5% solid black;
     background-color: rgb(252, 255, 246);
-    display:inline-block;
+    display: inline-block; 
+    width: 60%; 
+    left: 20%; 
     border-radius: 8px;
+    
 }
 #enginemenu{
-    width: 130px;
-    height: 90px;
+    font-size: 1em; 
+    width: 48%;
+    height: 15%; 
     float: left;
-    border: 2px solid black;
     margin-right: 3px;
     background-color: rgb(255, 247, 230);
     border-radius: 8px;
-    transition: border-radius 0.5s, width 0.5s;
+    transition: border-radius 0.5s, width 0.5s, font-size 0.5s;
 }
 #enginemenu:hover {
     background-color: rgb(199, 241, 241);
-    width: 140px;
+    font-size: 1.2em;
+    width: 48%;
     border-radius: 18px;
 }
 #gamemenu{
-    width: 130px;
-    height: 90px;
+    font-size: 1em; 
+    width: 48%;
+    height: 15%; 
     float: right;
-    border: 2px solid black;
     margin-left: 3px;
     background-color: rgb(255, 247, 230);
     border-radius: 8px;
-    transition: border-radius 0.5s, width 0.5s;
+    transition: border-radius 0.5s, width 0.5s, font-size 0.5s;
 }
 #gamemenu:hover {
     background-color: rgb(199, 241, 241);
-    width: 140px;
+    font-size: 1.2em;
+    width: 48%;
     border-radius: 18px;
 }
 .text {
@@ -48,23 +51,32 @@
 
 .engineTable { 
     position: relative; 
-    width: 45%; 
+    width: 55%; 
+    font-size: 1em; 
     background-color:rgb(255, 247, 230);
 }
 
 .engineTitle { 
-    font-size: 3em;
+    font-size: 2.5em;
     text-decoration: underline;
 }
 
 .engineImage { 
-    position: relative; 
-    width: 36.5%; 
-    top: 1em; 
-    right: 6.5%; 
     float: right; 
-    padding: 2.5%; 
+    padding: 2%; 
     margin: 1%; 
     border-radius: 15%;
     background-image: linear-gradient(to bottom right, red, yellow, green) 
+}
+
+.engineImage > img { 
+    object-fit: contain; 
+    height: 6.5em; 
+}
+.engineText { 
+    text-indent: 2.5%; 
+    font-size: 1em; 
+    border: 2px solid black; 
+    margin: 2.5% 0 16.5% 0; 
+    padding: 1.5%; 
 }

@@ -17,22 +17,22 @@
     </div> 
     <selection class="mainBody"> 
     <h1 class="title"> -- About -- </h1> 
-    <img class="inspiration" src="images/template.png" alt="Become Inspired"/>
-    <p class="bodyText"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quod atque nihil saepe quibusdam deleniti iure facere consequatur doloribus fugiat vero, hic inventore deserunt ducimus minima nemo qui dicta officia! </p> 
-    <p id="one"> ONE </p> 
-    <p id="two"> TWO </p> 
-    <p id="three"> THREE </p> 
-        
-        <input type="button" onclick="toggleSee()" value="enter here"/> 
+    <img class="inspiration" src="images/template.png" alt="Become Inspired" id="image1"/>
+    <p class="above" id="above"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quod atque nihil saepe quibusdam deleniti iure facere consequatur doloribus fugiat vero, hic inventore deserunt ducimus minima nemo qui dicta officia! </p> 
+
+        <center><input type="button" onclick="toggleSee()" value="View Creators" id="button1"/>
         <div id="userbox" class="hidden" class="expand">
-            <img id="userimage" src="images/template.png" alt="Become Inspired"/>
-            <P>Test</P>
-        <hr>
-        
-        
-        </div>
-
-
+            <input type="button" onclick="toggleHide()" value="Return to About" id="button2"/><br>
+        <button class="navbutton" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="navbutton" onclick="plusDivs(1)">&#10095;</button><br>
+                <div class="mySlides"><img id="userimage" src="images/motivation1.jpg"/>
+                    <P id="abouttext">Sebsation</P><br>
+                    <P id="">(Info about him)</P>
+                    <P id="">The cross-compatibility genius. </P></div>
+                <div class="mySlides"><img id="userimage" src="images/seal.png"/>
+                    <P id="abouttext">Spencer</P></div>
+                <div class="mySlides"><img id="userimage" src="images/template.png"/>
+                    <P id="abouttext">Ethan</P></div></div></center>
     </selection> 
     <script src="scripts/javascript/aboutscript.js"></script>
 </body> 

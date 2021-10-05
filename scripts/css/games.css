@@ -1,3 +1,24 @@
 #games{
-    background-image: images/;
+background-image: url('../../images/battlefield.jpg');
+}
+div.links{
+    background-color: rgba(128, 128, 128, 0.582);
+    border: gray;
+}
+input.navigation{
+    background-image: linear-gradient(to left, rgba(0, 255, 149, 0.555) , rgba(255, 102, 0, 0.432));
+    border-width: 0px;
+}
+h1.title{
+    color: black;
+}
+.secondaryBody { 
+    background-color: rgba(128, 128, 128, 0.658); 
+    position: relative; 
+    top: 15%; 
+    width: 90%; 
+    height: 82%; 
+    padding: 2.5% 4.5% ;   
+    font-size: 1.5em; 
+    border-radius: 5px;
 }

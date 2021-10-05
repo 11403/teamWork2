@@ -4,33 +4,76 @@
     padding: 5px;
     border: 2px solid black;
     text-align: center;
-    background-color: rgb(252, 255, 246);
+    background-color: rgb(255, 255, 255);
     display:inline-block;
     border-radius: 8px;
 }
 .expand{
-    width: 150px;
+    width: 250px;
     height: 30px;
     float: left;
     border: 2px solid black;
-    background-color: rgb(255, 247, 230);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     transition: border-radius 0.5s, width 0.5s;
 }
 #userbox{
-    background-color:rgb(252, 255, 246);
+    background-color:rgb(255, 255, 255);
     border: 2px solid black;
     width: 95%;
-    height: 200px;
+    height: 700px;
 }
 
 #userimage{
     position: relative; 
     width: 80%; 
-    padding: 5%; 
-    border-radius: 10%; 
+    height: 80%;
+    padding: 2%; 
+  
 }
 
 .hidden { 
     display: none; 
+}
+
+.above { 
+    text-indent: 6.5%; 
+   
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow{
+    border: 2px solid black;
+}
+
+.buttonleft{
+    margin-top: -50px;
+}
+
+#abouttext{
+    font-size:30px;
+    text-decoration-line: underline;
+}
+
+#button2{
+    background-color:rgb(255, 253, 253);
+    width: 320px;
+    height: 60px;
+    font-size: 25px;
+}
+
+#button1{
+    background-color:rgb(255, 253, 253);
+    width: 320px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.navbutton{
+    margin-top: 10px;
+    width:70px;
+    height:50px;
 }

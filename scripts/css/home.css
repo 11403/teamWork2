@@ -28,7 +28,7 @@ p.text{
     font-size: 20pt;
 }
 #hr{
-    border: dotted 2px rgb(255, 255, 255);
+    border: dotted px rgb(255, 255, 255);
     margin-left: 35px;
     margin-right: 35px;
 }

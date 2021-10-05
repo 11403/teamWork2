@@ -95,7 +95,8 @@ body {
 /* ---------------------------------------------- PC Mode ---------------------------------------------------------------------------*/ 
   @media only screen and (min-width: 12in) { 
       body { 
-          font-size: calc(0.75vw + 0.75vh)
+          font-size: calc(0.65vw + 0.65vh);
+          color: red; 
       }
     .mainBody { 
         top: 15%; 
@@ -120,12 +121,15 @@ body {
         border-color:  rgba(248, 177, 136, 0.219);
         background-color: rgba(255, 210, 87, 0.281);
     }
-    #two { 
-        color: green; 
-    }
     .inspiration { 
-        width: 60%;
-        left: 20%;  
+        position: relative; 
+        width: 70%; 
+        left: 15%;
+        margin: auto; 
+    }
+    .engineImages { 
+        position: relative; 
+        bottom: 50em; 
     }
   }
 
