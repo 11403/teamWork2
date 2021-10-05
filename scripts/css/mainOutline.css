@@ -24,13 +24,14 @@ body {
     background-image: linear-gradient(to bottom, rgba(206, 225, 246, 0.103) , rgba(255, 214, 147, 0.308));
 }
 .mainBody { 
-    background-color: rgba(255, 247, 247, 0.753); 
+    background-color: rgba(243, 243, 243, 0.753); 
     position: relative; 
     top: 11%; 
-    width: 90%; 
-    max-height: 80%; 
+    width: 96%; 
+    height: 90%; 
     padding: 2.5% 4.5% ;   
     font-size: 1.5em; 
+    border-radius: 5px;
 }
 .title { 
     text-align: center;
@@ -70,6 +71,7 @@ body {
 .bodyText { 
     text-indent: 6.5%; 
 }
+
 /* ---------------------------------------------- Landscape Mode on Mobile -----------------------------------------------*/ 
 @media only screen and (orientation: landscape) and (min-width: 6in) and (max-width: 12in) {
     body { 

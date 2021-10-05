@@ -1,10 +1,10 @@
 #menucontainer{
-    margin-top: 150px;
+    margin-top: 20px;
     margin-left: 10px;
     padding: 5px;
     border: 2px solid black;
     text-align: center;
-    background-color: rgb(247, 255, 246);
+    background-color: rgb(252, 255, 246);
     display:inline-block;
     border-radius: 8px;
 }
@@ -14,7 +14,7 @@
     float: left;
     border: 2px solid black;
     margin-right: 3px;
-    background-color: rgb(234, 255, 242);
+    background-color: rgb(255, 247, 230);
     border-radius: 8px;
     transition: border-radius 0.5s, width 0.5s;
 }
@@ -22,7 +22,6 @@
     background-color: rgb(199, 241, 241);
     width: 140px;
     border-radius: 18px;
-
 }
 #gamemenu{
     width: 130px;
@@ -30,7 +29,7 @@
     float: right;
     border: 2px solid black;
     margin-left: 3px;
-    background-color: rgb(234, 255, 242);
+    background-color: rgb(255, 247, 230);
     border-radius: 8px;
     transition: border-radius 0.5s, width 0.5s;
 }
@@ -46,28 +45,26 @@
     text-decoration-line: none;
     color: black
 }
-#gametitle {
-    font-family: verdana;
-    font-size: 30px;
-    margin-top: 60px;
-    margin-right: 200px;
-    text-decoration-line: underline;
+
+.engineTable { 
+    position: relative; 
+    width: 45%; 
+    background-color:rgb(255, 247, 230);
 }
-#gamebox1 {
-    background-color: rgb(247, 255, 246);
-    border: 2px solid black;
-    border-radius: 4px;
-    width: 210px;
-    height: 70px;
-    margin-top: -50px;
-    margin-left: 90px;
+
+.engineTitle { 
+    font-size: 3em;
+    text-decoration: underline;
 }
-#gamebox2 {
-    background-color: rgb(247, 255, 246);
-    border: 2px solid black;
-    border-radius: 4px;
-    width: 300px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 00px;
+
+.engineImage { 
+    position: relative; 
+    width: 36.5%; 
+    top: 1em; 
+    right: 6.5%; 
+    float: right; 
+    padding: 2.5%; 
+    margin: 1%; 
+    border-radius: 15%;
+    background-image: linear-gradient(to bottom right, red, yellow, green) 
 }
