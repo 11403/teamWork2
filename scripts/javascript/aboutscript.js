@@ -3,12 +3,14 @@ function toggleSee() {
     let box2 = document.getElementById('above'); 
     let box3 = document.getElementById('button1'); 
     let box4 = document.getElementById('image1');
+    let box5 = document.getElementById('abouttitle')
 
     box.classList.toggle("hidden");
     box2.innerHTML = "";
     box3.classList.toggle("hidden");
     box4.classList.toggle("hidden");
     document.getElementById("button1").value="";
+    box5.innerHTML = "";
 
 }
 
@@ -17,12 +19,14 @@ function toggleHide() {
     let box2 = document.getElementById('above');  
     let box3 = document.getElementById('button1'); 
     let box4 = document.getElementById('image1');
+    let box5 = document.getElementById('abouttitle')
     
     box.classList.toggle("hidden");
-    box2.innerHTML = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quod atque nihil saepe quibusdam deleniti iure facere consequatur doloribus fugiat vero, hic inventore deserunt ducimus minima nemo qui dicta officia!";
+    box2.innerHTML = "3 Great men worked together and made a mediocre website. We have a very particular set of skills - coding might be one of them ";
     box3.classList.toggle("hidden");
     box4.classList.toggle("hidden");
     document.getElementById("button1").value="View Creators";
+    box5.innerHTML = " -- About -- "
 }
 
 // Thank you for working on it!

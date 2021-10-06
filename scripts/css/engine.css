@@ -12,7 +12,7 @@
 #enginemenu{
     font-size: 1em; 
     width: 48%;
-    height: 15%; 
+    height: 12%; 
     float: left;
     margin-right: 3px;
     background-color: rgb(255, 247, 230);
@@ -28,7 +28,7 @@
 #gamemenu{
     font-size: 1em; 
     width: 48%;
-    height: 15%; 
+    height: 12%; 
     float: right;
     margin-left: 3px;
     background-color: rgb(255, 247, 230);
@@ -49,6 +49,10 @@
     color: black
 }
 
+.box { 
+    position: relative; 
+}
+
 .engineTable { 
     position: relative; 
     width: 55%; 
@@ -57,22 +61,21 @@
 }
 
 .engineTitle { 
-    font-size: 2.5em;
+    font-size: 2em;
     text-decoration: underline;
-}
-
-.engineImage { 
-    float: right; 
-    padding: 2%; 
-    margin: 1%; 
-    border-radius: 15%;
-    background-image: linear-gradient(to bottom right, red, yellow, green) 
+    margin-bottom: 2.5%;
 }
 
 .engineImage > img { 
-    object-fit: contain; 
-    height: 6.5em; 
+    background-image: linear-gradient(to bottom right, red, yellow, green);
+    width: 25%; 
+    padding: 2%; 
+    border-radius: 15%;
+    position: absolute; 
+    right: 10%; 
+    bottom: 50%; 
 }
+
 .engineText { 
     text-indent: 2.5%; 
     font-size: 1em; 

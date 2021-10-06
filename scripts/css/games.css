@@ -6,7 +6,7 @@ div.links{
     border: gray;
 }
 input.navigation{
-    background-image: linear-gradient(to left, rgba(0, 255, 149, 0.555) , rgba(255, 102, 0, 0.432));
+    background-image: linear-gradient(to bottom left, rgba(0, 255, 149, 0.514) , rgba(255, 102, 0, 0.795));
     border-width: 0px;
 }
 h1.title{

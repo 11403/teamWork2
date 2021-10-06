@@ -21,24 +21,19 @@
     background-color:rgb(255, 255, 255);
     border: 2px solid black;
     width: 95%;
-    height: 700px;
+    height: 675px;
 }
 
 #userimage{
     position: relative; 
-    width: 80%; 
-    height: 80%;
+    width: 60%; 
+    height: 60%;
     padding: 2%; 
   
 }
 
 .hidden { 
     display: none; 
-}
-
-.above { 
-    text-indent: 6.5%; 
-   
 }
 
 .mySlides {
@@ -70,10 +65,41 @@
     width: 320px;
     height: 60px;
     font-size: 25px;
+    transition: border-radius 0.5s, width 0.5s, font-size 0.5s, background-color 0.5s;
+}
+#button1:hover {
+    background-color: rgb(250, 237, 228);
+    font-size: 1.2em;
+    width: 350px;
+    border-radius: 12px;
+}
+
+#button2{
+    background-color:rgb(255, 253, 253);
+    width: 320px;
+    height: 60px;
+    font-size: 25px;
+    transition: border-radius 0.5s, width 0.5s, font-size 0.5s, background-color 0.5s, margin-top 0.5s;
+}
+#button2:hover {
+    background-color: rgb(250, 237, 228);
+    font-size: 1.2em;
+    width: 350px;
+    border-radius: 12px;
+    margin-top: 10px;
 }
 
 .navbutton{
+    background-color:rgb(255, 253, 253);
     margin-top: 10px;
-    width:70px;
+    width:80px;
     height:50px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: border-radius 0.5s, background-color 0.5s;
+}
+
+.navbutton:hover{
+    background-color: rgb(250, 237, 228);
+    border-radius: 12px;
 }

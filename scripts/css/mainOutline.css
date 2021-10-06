@@ -39,9 +39,10 @@ body {
     margin: 2.5% 2.5% 0; 
     font-size: 1.65em;
 }
+
 .links { 
     background-color:rgba(255, 255, 254, 0.753);  
-    border: 2px solid #e7e4d4;
+    border: 2px solid #d4dfe7;
     border-radius: 4px;
     position: fixed; 
     width: 100%; 
@@ -54,6 +55,7 @@ body {
     /* background-image: linear-gradient(to left, rgb(177, 177, 177) , rgb(46, 46, 46)); */ 
 }
 .navigation { 
+    background-color: rgb(234, 241, 253); 
     width: 100%; 
     margin: 2% 1.5%;
     border-radius: 15%; 
@@ -70,6 +72,8 @@ body {
 }
 .bodyText { 
     text-indent: 6.5%; 
+    font-size: 1em; 
+    color: blue; 
 }
 
 /* ---------------------------------------------- Landscape Mode on Mobile -----------------------------------------------*/ 
@@ -96,7 +100,6 @@ body {
   @media only screen and (min-width: 12in) { 
       body { 
           font-size: calc(0.65vw + 0.65vh);
-          color: red; 
       }
     .mainBody { 
         top: 15%; 
@@ -105,12 +108,14 @@ body {
         min-height: 0; 
         height: 80%; 
         margin: 0; 
+        border-left: 2px solid black; 
+        border-right: 2px solid black; 
     }
     .links { 
         height: 12%; 
          /* background-image: linear-gradient(to right, rgb(177, 177, 177) , rgb(46, 46, 46)); */ 
          background-color: rgba(255, 255, 254, 0.753); 
-         border: 2px solid rgb(219, 219, 219);
+         border: 2px solid rgb(185, 217, 235);
     }
     .navigation { 
         margin: 1.5% 1.5%; 
@@ -118,8 +123,17 @@ body {
         border-radius: 11%; 
         border-width: 6px;
         border-style: outset;
-        border-color:  rgba(248, 177, 136, 0.219);
-        background-color: rgba(255, 210, 87, 0.281);
+        border-color:  rgba(55, 180, 230, 0.219);
+        background-color: rgba(151, 206, 243, 0.481);
+        transition: border-radius 0.5s, font-size 0.5s, background-color 0.5s, border-style 0.5s;
+    }
+    .navigation:hover{
+        border-radius: 3%; 
+        border-width: 6px;
+        border-style:groove;
+        font-size: 20px;
+        border-color:  rgba(105, 105, 105, 0.419);
+        background-color: rgba(228, 228, 228, 0.481);
     }
     .inspiration { 
         position: relative; 
