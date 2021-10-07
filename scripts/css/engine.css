@@ -55,9 +55,9 @@
 
 .engineTable { 
     position: relative; 
-    width: 55%; 
+    width: 60%; 
     font-size: 1em; 
-    background-color:rgb(255, 247, 230);
+    background-color:rgba(243, 243, 243, 0.753);
 }
 
 .engineTitle { 

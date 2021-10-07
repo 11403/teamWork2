@@ -79,6 +79,7 @@
     width: 320px;
     height: 60px;
     font-size: 25px;
+    margin-top: 5px;
     transition: border-radius 0.5s, width 0.5s, font-size 0.5s, background-color 0.5s, margin-top 0.5s;
 }
 #button2:hover {

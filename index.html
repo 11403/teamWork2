@@ -19,6 +19,15 @@
                     <input class="navigation" type="submit" value="Engine" onclick="location.href='engine.html'"/>  
                     <input class="navigation" type="submit" value="Settings" onclick="setting()"/>
             </div> 
+            <section class="settingBox hidden"> 
+                <h1 class="settingTitle"> Settings </h1>
+                <br> 
+                <button onclick="invert()"> Night Light </button>
+                <br> 
+                <button onclick="talk()""> How are you doing Today</button>
+                <br> 
+                <button onclick="talkRate()"> Rate us </button>
+            </section>
             <selection class="mainBody"> 
             <h1 class="title"> -- Home -- </h1> 
             <h3 style="text-align: center"> -- Welcome to Our Website! -- </h3> 
@@ -28,13 +37,15 @@
         
         <div id="introbox">
             <br>
+            <center>
             <span class="title">Your Place to Learn Games</span><br>
-
+            <center>
             <hr id=hr>
             <br>
 
             <P class="bodyText">Here at The Northwest Tree, we provide in-depth descriptions of popular game engines, along with learning tips and game examples.</P>
         </div>
     </selection>  
+    <script src="scripts/javascript/aboutscript.js"></script>
     </body>
 </html>

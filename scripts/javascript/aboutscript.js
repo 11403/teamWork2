@@ -22,7 +22,7 @@ function toggleHide() {
     let box5 = document.getElementById('abouttitle')
     
     box.classList.toggle("hidden");
-    box2.innerHTML = "3 Great men worked together and made a mediocre website. We have a very particular set of skills - coding might be one of them ";
+    box2.innerHTML = "Three great men worked together and made a mediocre website. We have a very particular set of skills - coding might be one of them ";
     box3.classList.toggle("hidden");
     box4.classList.toggle("hidden");
     document.getElementById("button1").value="View Creators";
@@ -48,4 +48,29 @@ function showDivs(n) {
     x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
+}
+
+function setting() { 
+  console.log("working"); 
+  const modal = document.querySelector(".settingBox"); 
+  modal.classList.toggle("hidden");
+  document.querySelector(".mainBody").classList.toggle(".blur"); 
+}
+
+function invert() { 
+  console.log("working2");
+  document.querySelector("body").classList.toggle("invert");
+  
+}
+
+function talk() { 
+  let question = prompt("How are You Doing Today?"); 
+  alert("Oh yeah, well my day WAS THE WORST ");
+  const all = document.querySelector("*"); 
+  all.classList.add("hidden");
+}
+
+function talkRate() { 
+  prompt("Enter Your Rating ... ");
+  alert("10 stars. Thank you so much");
 }

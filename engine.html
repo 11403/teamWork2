@@ -12,8 +12,17 @@
                     <input class="navigation" type="submit" value="Home" onclick="location.href='index.html'"/>  
                     <input class="navigation" type="submit" value="About" onclick="location.href='about.html'"/>
                     <input class="navigation" type="submit" value="Engine" onclick="location.href='engine.html'"/>  
-                    <input class="navigation" type="submit" value="Settings" onclick="setting()"/>
+                    <input class="navigation" type="button" value="Settings" onclick="setting()"/>
             </div> 
+            <section class="settingBox hidden"> 
+                <h1 class="settingTitle"> Settings </h1>
+                <br> 
+                <button onclick="invert()"> Night Light </button>
+                <br> 
+                <button onclick="talk()""> How are you doing Today</button>
+                <br> 
+                <button onclick="talkRate()"> Rate us </button>
+            </section>
             <selection class="mainBody"> 
             <h1 class="title"> -- Engine -- </h1>  
              <img class="inspiration" src="https://quotefancy.com/media/wallpaper/3840x2160/4858095-Seth-Godin-Quote-If-the-game-is-designed-for-you-to-lose-don-t.jpg" alt="Become Inspired"/> 
@@ -24,7 +33,7 @@
         
             <br> <br> <br> 
             <div class="box">
-                <div class="engineImage"><img style="position: absolute; bottom: 60%" src="https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png" alt="untiy logo"/></div>
+                <div class="engineImage"><img style="position: absolute; bottom: 60%" src="https://www.logolynx.com/images/logolynx/81/8109dc13e10a02d4932e24f01cfb08b9.jpeg" alt="untiy logo"/></div>
             <h1 class="engineTitle"> - Unity - </h1>
             
             <table class="engineTable" border="1" colspan="2"> 
@@ -53,7 +62,7 @@
             </div> 
         </div>
         <div class="box">
-            <div class="engineImage"><img src="https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png" alt="untiy logo" /></div> 
+            <div class="engineImage"><img src="https://th.bing.com/th/id/OIP.iiT7HHrnOoFUYW-qC-un6gHaEK?pid=ImgDet&rs=1" alt="untiy logo" /></div> 
             <h1 class="engineTitle"> - Unreal Engine - </h1>
             
             <table class="engineTable" border="1" colspan="2"> 
@@ -83,7 +92,7 @@
             </div> 
         </div>
         <div class="box">
-            <div class="engineImage"><img src="https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png" alt="untiy logo"/></div>
+            <div class="engineImage"><img src="https://th.bing.com/th/id/OIP.5Twoe1SGDzl-Pz_mbj8PAQHaEK?pid=ImgDet&rs=1" alt="untiy logo"/></div>
             <h1 class="engineTitle"> - Frostbite - </h1>
             
             <table class="engineTable" border="1" colspan="2"> 
@@ -112,5 +121,6 @@
             </div> 
         </div>
     </selection>
+    <script src="scripts/javascript/aboutscript.js"></script>
     </body>
 </html>

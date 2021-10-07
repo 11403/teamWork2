@@ -71,9 +71,47 @@ body {
     border-radius: 10%; 
 }
 .bodyText { 
-    text-indent: 6.5%; 
     font-size: 1em; 
     color: blue; 
+    text-align: center;
+}
+
+.settingBox { 
+    position: absolute; 
+    z-index: 2; 
+    width: 80%; 
+    height: 88%; 
+    top: 12%; 
+    left: 10%; 
+    background-color: rgba(224, 224, 224, 0.911);
+    text-align: center; 
+    backdrop-filter: blur(10px);
+    
+}
+
+.settingTitle { 
+    font-size: 3em; 
+    margin: 5%; 
+    text-decoration: underline;
+    
+}
+
+.settingBox > button { 
+    font-size: 1em; 
+    padding: 2.5%; 
+    border-radius: 15%;
+    margin: 2.5%; 
+}
+
+.hidden { 
+    display: none; 
+}
+
+.blur { 
+    filter: blur(100px)
+}
+.invert { 
+    filter: invert(100%);
 }
 
 /* ---------------------------------------------- Landscape Mode on Mobile -----------------------------------------------*/ 
@@ -144,6 +182,9 @@ body {
     .engineImages { 
         position: relative; 
         bottom: 50em; 
+    }  
+    .settings > button { 
+        margin: 0.5%; 
     }
   }
 
